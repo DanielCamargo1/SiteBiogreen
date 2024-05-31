@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+*{
+    margin:0;
+    padding: 1px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.headerItens{
+    width: 100%;
+    padding: 2rem 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #272727;
+}
+
+.logoItem{
+    width: 20%;    
+}
+
+a{
+    color: aliceblue;
+}
+
+main{
+    background-image: url("Imagens/bannerBioGreen.jpg") ;
+    background-repeat: no-repeat,repeat;
+    background-color: #272727;
+    width: 100%;
+}
+
