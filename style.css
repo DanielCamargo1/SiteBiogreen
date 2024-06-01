@@ -44,9 +44,82 @@ nav a:hover {
     color: #fff;
 }
 
+.typing-effect {
+    font-size: 24px;
+  }
+  
+  .cursor {
+    animation: blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+
 .ImagensCantosEsquerdo{
-    margin-left: 800px;
-    margin-top: 180px;
+    margin-left: 865px;
+    width: 50px;
+    margin-top: 10px;
     position: realtve;
+    
 }
 
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+}
+  
+  .banner-content {
+    position: relative;
+}
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+  
+  .homePageImagem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    z-index: 0;
+  }
+
+.logoBanner{
+    animation: floatImage 4s ease-in-out infinite;
+
+}
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
