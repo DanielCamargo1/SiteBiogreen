@@ -123,3 +123,30 @@ nav a:hover {
         transform: translateY(0);
     }
 }
+
+.servicos{
+    text-align:center;
+}
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.slide img {
+    width: 15%;
+    height: 10% ;
+    height: auto;
+}

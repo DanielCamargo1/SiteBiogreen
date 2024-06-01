@@ -9,7 +9,17 @@ function type() {
     textIndex++;
     setTimeout(type, 100); 
   }
-  
 }
 
 type();
+
+const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+
+function nextSlide() {
+    slides[currentSlide].style.display = 'none';
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].style.display = 'block';
+}
+
+setInterval(nextSlide, 3000); // Troca de slide a cada 3 segundos (3000 milissegundos)
