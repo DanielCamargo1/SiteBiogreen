@@ -138,7 +138,7 @@ nav a:hover {
 }
 
 h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h3{
@@ -150,3 +150,12 @@ h3{
     height: 10% ;
     height: auto;
 }
+
+
+.ImagemCantoDireito{
+    margin-left: -1300px;
+    width: 500px;
+    margin-top: -100px;
+    position: realtve;
+}
+
