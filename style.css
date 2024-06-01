@@ -1,32 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:500');
-*{
-    margin:0;
-    padding: 1px;
-    box-sizing: border-box;
-    text-decoration: none;
+
+
+header {
+    background-color: #243319;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.headerItens{
-    width: 100%;
-    padding: 2rem 3%;
+.headerItens {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background-color: #272727;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.logoItem{
-    width: 20%;    
+.logo img {
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
 }
 
-a{
-    color: aliceblue;
+.logo img:hover {
+    transform: scale(1.1);
 }
 
-main{
-    background-image: url("Imagens/bannerBioGreen.jpg") ;
-    background-repeat: no-repeat,repeat;
-    background-color: #272727;
-    width: 100%;
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-family: "Marcellus", seans-serif;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.ImagensCantosEsquerdo{
+    margin-left: 800px;
+    margin-top: 120px;
+    position: realtve;
 }
 
