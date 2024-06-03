@@ -66,7 +66,6 @@ nav a:hover {
     width: 50px;
     margin-top: 10px;
     position: realtve;
-    
 }
 
 .banner{
@@ -131,6 +130,7 @@ nav a:hover {
 .slider-container {
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .slide {
@@ -146,12 +146,15 @@ h3{
 }
 
 .slide img {
-    width: 15%;
+    width: 20%;
     height: 10% ;
     height: auto;
 }
 
-
+.row{
+    position: relative;
+    margin-top: -200px;
+}
 .ImagemCantoDireito{
     margin-left: -1300px;
     width: 500px;
@@ -161,12 +164,45 @@ h3{
 
 .paisagismo{
     background-color: #243319;
+    height: 700px;
+    
 }
 
 #paisagismo{
     color: #243319;
     position: relative;
-    margin-bottom: -30px;
+    margin-bottom: -28px;
     margin-top: 20px;
+    font-size: 100px;
+    
+}
+
+.textoExplicativo{
+    color: #e0e0e0;
+    text-align: left;
+    font-family: "Marcellus", seans-serif ;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 20px;
+    position: relative;
+    margin-top: -204px;
+}
+
+.button{
+    text-decoration: none;
+    color: #e0e0e0;
+    font-family: "Marcellus", seans-serif;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+#jardinsverticais{
+    color: #e0e0e0;
+    position: relative;
+    margin-bottom: -38px;
+    margin-top: 105px;
     font-size: 100px;
 }
