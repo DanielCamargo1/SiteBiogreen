@@ -177,6 +177,20 @@ h3{
     position: realtve;
 }
 
+#textpreto{
+    color: black;
+}
+
+.buttonpreto{
+    text-decoration: none;
+    color: black;
+    font-family: "Marcellus", seans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
 .paisagismo{
     background-color: #243319;
     height: 700px;
