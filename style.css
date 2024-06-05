@@ -179,6 +179,7 @@ h3{
 
 #textpreto{
     color: black;
+    margin-top: -400px;
 }
 
 .buttonpreto{
@@ -227,6 +228,7 @@ h3{
     border: 2px solid white;
     border-radius: 20px;
     padding: 20px;
+
 }
 
 #jardinsverticais{
@@ -234,4 +236,46 @@ h3{
     position: relative;
     margin-top: 177px;
     font-size: 100px;
+}
+
+#cantodireito{
+    margin-left: 1000px;
+    margin-top: -110px;
+    position: relative;
+}
+
+#direito{
+    margin-right: -200px;
+    width: 400px;
+    position: relative;
+
+}
+
+.btn, .button{
+    margin-top: 60px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.ncontato{
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.ctt{
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.contatoItem{
+    width: 15%;
+}
+
+footer{
+    background-color: #243319;
 }
