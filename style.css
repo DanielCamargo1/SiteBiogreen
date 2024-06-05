@@ -18,6 +18,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    
 }
 
 .logo img {
@@ -36,7 +37,7 @@ nav a {
     padding: 10px 15px;
     font-size: 1rem;
     border-radius: 5px;
-    font-family: "Marcellus", seans-serif;
+    font-family: "Marcellus";
 }
 
 nav a:hover {
@@ -46,6 +47,7 @@ nav a:hover {
 
 .typing-effect {
     font-size: 24px;
+    font-family: "Marcellus";
   }
   
   .cursor {
@@ -139,6 +141,8 @@ nav a:hover {
 
 h2{
     font-size: 40px;
+    font-family: "Marcellus";
+
 }
 
 h3{
@@ -269,10 +273,15 @@ h3{
 
 .ctt{
     margin-left: 40%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .contatoItem{
     width: 15%;
 }
 
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Marcellus";
+}
